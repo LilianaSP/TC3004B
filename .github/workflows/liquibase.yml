@@ -32,7 +32,7 @@ jobs:
           SQLNET_ORA: ${{ secrets.SQLNET_ORA }}
           TNSNAMES_ORA: ${{ secrets.TNSNAMES_ORA }}
           TRUSTSTORE_JKS: ${{ secrets.TRUSTSTORE_JKS }}
-        run:
+        run: |
           pwd
           mkdir oracle
           echo$CWALLET_SSO
